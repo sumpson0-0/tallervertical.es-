@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'header.css';
 
 * {
 	box-sizing: border-box;
@@ -9,4 +10,8 @@
 body {
 	background-color: #ededed;
 	font-family: 'Noto Sans', sans-serif;
+}
+
+.slogan--back {
+	display: none;
 }
