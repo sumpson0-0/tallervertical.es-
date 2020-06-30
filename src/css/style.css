@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 	color: #18428b;
+	user-select: none;
 }
 
 body {
