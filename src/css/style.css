@@ -2,12 +2,23 @@
 
 * {
 	box-sizing: border-box;
+	color: #18428b;
 }
 
 body {
 	background-color: #ededed;
 }
 
+.header {
+	position: fixed;
+	left: 0;
+	height: 100vh;
+	width: 7vw;
+}
+
+.slogan--back {
+	display: none;
+}
 /* 
 font-family: 'DM Mono', monospace;
 font-family: 'Noto Sans', sans-serif; 
