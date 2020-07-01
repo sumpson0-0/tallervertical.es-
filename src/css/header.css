@@ -8,7 +8,7 @@
 	font-weight: 300;
 }
 
-.header .header__navigation {
+.header .header__nav {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -17,34 +17,34 @@
 	width: 100%;
 }
 
-.header__navigation .navigation__tab {
+.header__nav .tab {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.header__navigation .navigation__tab .tab__menu {
+.header__nav .tab .tab__menu {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 }
 
-.header__navigation .navigation__tab .tab__menu .menu-bar {
+.header__nav .tab .tab__menu .menu-bar {
 	height: 1.7rem;
 	font-size: 1.4rem;
 	letter-spacing: -0.2rem;
 }
 
-.header__navigation .navigation__tab .tab__menu .menu-hide {
+.header__nav .tab .tab__menu .menu-hide {
 	display: none;
 }
 
-.header__navigation .navigation__tab .tab__menu:hover .menu-bar {
+.header__nav .tab .tab__menu:hover .menu-bar {
 	position: relative;
 	right: -1.4rem;
 }
 
-.header__navigation .navigation__tab .tab__menu:hover .menu-hide {
+.header__nav .tab .tab__menu:hover .menu-hide {
 	display: block;
 	position: relative;
 	right: -1.4rem;
@@ -71,7 +71,7 @@
 	}
 }
 
-.header__navigation .navigation__tab .tab__logo {
+.header__nav .tab .tab__logo {
 	margin: 2rem 0;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -81,14 +81,14 @@
 	transform: rotate(180deg);
 }
 
-.header__navigation .navigation__social-media {
+.header__nav .social-media {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
 }
 
-.header__navigation .navigation__social-media .social-media__icons .icon {
+.header__nav .social-media .social-media__icons .icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -101,12 +101,12 @@
 	cursor: pointer;
 }
 
-.header__navigation .navigation--slash {
+.header__nav .nav--slash {
 	height: 3.5rem;
 	border-left: #18428b solid 1px;
 }
 
-.header__navigation .navigation__social-media .social-media--slash {
+.header__nav .social-media .social-media--slash {
 	margin-bottom: 1.3rem;
 	border-left: #18428b solid 1.2px;
 }
