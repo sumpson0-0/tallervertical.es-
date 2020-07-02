@@ -95,7 +95,7 @@
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
 	opacity: 0;
-	animation: show-menu ease-in-out 0.3s forwards;
+	animation: show-menu ease-in-out 0.2s forwards;
 }
 
 @keyframes show-menu {
