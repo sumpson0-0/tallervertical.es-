@@ -17,6 +17,48 @@
 	width: 100%;
 }
 
+.header__nav .contact {
+	position: fixed;
+	top: 2rem;
+	right: 4.5rem;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.header__nav .contact .contact__email {
+	z-index: 3;
+}
+
+.header__nav .contact .contact-effect {
+	display: none;
+}
+
+.header__nav .contact:hover .contact-effect {
+	display: block;
+	position: relative;
+	top: -0.5rem;
+	right: -0.3rem;
+	width: 0.2rem;
+	height: 0.5rem;
+	background-color: #b2c6e2;
+	z-index: -1;
+	animation: email-underscore 0.15s ease forwards;
+	transform-origin: left;
+}
+
+@keyframes email-underscore {
+	0% {
+		transform: scaleX(0);
+	}
+	50% {
+		transform: scaleX(30);
+	}
+	100% {
+		transform: scaleX(60);
+	}
+}
+
 .header__nav .tab {
 	display: flex;
 	flex-direction: column;
