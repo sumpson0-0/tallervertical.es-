@@ -51,10 +51,10 @@
 		transform: scaleX(0);
 	}
 	50% {
-		transform: scaleX(30);
+		transform: scaleX(25);
 	}
 	100% {
-		transform: scaleX(60);
+		transform: scaleX(55);
 	}
 }
 
