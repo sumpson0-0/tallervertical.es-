@@ -19,3 +19,10 @@
 	text-transform: uppercase;
 	text-shadow: 2px 5px 10px rgba(245, 245, 245, 0.603);
 }
+
+.main .content .content__img {
+	width: 65vw;
+	height: 65vh;
+	object-fit: cover;
+	z-index: -1;
+}
