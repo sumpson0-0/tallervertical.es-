@@ -1,5 +1,6 @@
 @import 'reset.css';
 @import 'header.css';
+@import 'main.css';
 
 * {
 	box-sizing: border-box;
@@ -9,9 +10,9 @@
 
 body {
 	background-color: #ededed;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.slogan--back {
+.slogan-back {
 	display: none;
 }
