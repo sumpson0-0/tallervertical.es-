@@ -26,3 +26,12 @@
 	object-fit: cover;
 	z-index: -1;
 }
+
+.main .content .content__info-wrapper {
+	position: absolute;
+	bottom: 7rem;
+	right: 12.5rem;
+	background-color: rgba(252, 252, 252, 0.603);
+	font-size: 1.3rem;
+	transform: rotate(270deg);
+}
