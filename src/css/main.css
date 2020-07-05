@@ -1,0 +1,21 @@
+.main {
+}
+
+.main .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main .content .content__title {
+	position: absolute;
+	left: 12rem;
+	top: 12rem;
+	width: 50rem;
+	font-size: 6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 5px 10px rgba(245, 245, 245, 0.603);
+}
