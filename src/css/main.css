@@ -4,6 +4,8 @@
 .main .content-wrapper {
 }
 
+/* content 공통 스타일 */
+
 .content-wrapper .content {
 	display: flex;
 	justify-content: center;
@@ -16,11 +18,17 @@
 	position: absolute;
 	left: 12rem;
 	top: 12rem;
-	width: 50rem;
+	width: 55rem;
 	font-size: 6rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.589);
+	transition: all 0.4s;
+}
+
+.content-wrapper .content .content__title:hover {
+	transition: transform 0.4s ease-in-out;
+	transform: translateY(-1.3rem);
 }
 
 .content-wrapper .content .content__img {
@@ -34,7 +42,7 @@
 	position: absolute;
 	bottom: 7rem;
 	right: 12.5rem;
-	background-color: rgba(252, 252, 252, 0.603);
+	background-color: rgba(252, 252, 252, 0.678);
 	font-size: 1.3rem;
 	transform: rotate(270deg);
 }
@@ -61,6 +69,18 @@
 	font-size: 11px;
 	cursor: pointer;
 }
+
+/* content-1 */
+
+/* content-2 */
+/* content-3 */
+/* content-4 */
+/* content-5 */
+/* content-6 */
+/* content-7 */
+/* content-8 */
+/* content-9 */
+/* content-10 */
 
 /* 배경 패턴 */
 .main .bg {
