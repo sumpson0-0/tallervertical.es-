@@ -9,10 +9,29 @@
 }
 
 body {
+	overflow: hidden;
 	background-color: #ededed;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.slogan-back {
+body::-webkit-scrollbar {
 	display: none;
+}
+
+.slogan-back {
+	position: absolute;
+	left: 25rem;
+	bottom: 0rem;
+	width: auto;
+	height: 20rem;
+	font-size: 4.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	z-index: -2;
+}
+
+.slogan-back > * {
+	padding: 0 0.5rem;
 }

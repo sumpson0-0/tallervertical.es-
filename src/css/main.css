@@ -1,7 +1,10 @@
 .main {
+	font-weight: 500;
+}
+.main .content-wrapper {
 }
 
-.main .content {
+.content-wrapper .content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -9,7 +12,7 @@
 	height: 100vh;
 }
 
-.main .content .content__title {
+.content-wrapper .content .content__title {
 	position: absolute;
 	left: 12rem;
 	top: 12rem;
@@ -20,14 +23,14 @@
 	text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.589);
 }
 
-.main .content .content__img {
+.content-wrapper .content .content__img {
 	width: 65vw;
 	height: 65vh;
 	object-fit: cover;
 	z-index: -1;
 }
 
-.main .content .content__info-wrapper {
+.content-wrapper .content .content__info-wrapper {
 	position: absolute;
 	bottom: 7rem;
 	right: 12.5rem;
@@ -36,7 +39,7 @@
 	transform: rotate(270deg);
 }
 
-.main .content .content__page-counter {
+.content-wrapper .content .content__page-counter {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -46,15 +49,45 @@
 	font-size: 14px;
 }
 
-.main .content .content__page-counter .counter-slash {
+.content-wrapper .content .content__page-counter .counter-slash {
 	padding: 8px 0;
 }
 
-.main .content .content__page-counter .counter-total {
+.content-wrapper .content .content__page-counter .counter-total {
 	padding-bottom: 15px;
 }
 
-.main .content .content__page-counter .counter-next {
+.content-wrapper .content .content__page-counter .counter-next {
 	font-size: 11px;
 	cursor: pointer;
+}
+
+/* 배경 패턴 */
+.main .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50vw;
+	height: auto;
+}
+
+.main .bg .bg-blue {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #d9e1e7;
+	height: 50vh;
+	width: 100%;
+	z-index: -5;
+}
+
+.main .bg .bg-pattern {
+	position: absolute;
+	top: 7rem;
+	right: 5rem;
+	width: 65%;
+	height: 60vh;
+	background: url('../images/pattern.png') no-repeat;
+	background-size: cover;
+	z-index: -2;
 }
