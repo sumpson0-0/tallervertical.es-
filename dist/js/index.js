@@ -1,7 +1,7 @@
 "use strict";
 
 var isWorking = document.querySelector('.is-working');
-var currentValue = isWorking.lastElementChild.firstElementChild;
+var currentValue = document.querySelector('.counter-current');
 var nowScroll = window.scrollY;
 
 var scrollEvent = function scrollEvent(e) {

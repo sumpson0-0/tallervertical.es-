@@ -2,8 +2,7 @@
 	font-weight: 500;
 }
 .main .content-wrapper {
-	width: 100%;
-	height: 100%;
+	position: relative;
 }
 
 /* content 공통 스타일 */
@@ -45,7 +44,8 @@
 	transform: rotate(270deg);
 }
 
-.content-wrapper .content .content__page-counter {
+/* counter */
+.content-wrapper .content__page-counter {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -55,15 +55,15 @@
 	font-size: 14px;
 }
 
-.content-wrapper .content .content__page-counter .counter-slash {
+.content-wrapper .content__page-counter .counter-slash {
 	padding: 8px 0;
 }
 
-.content-wrapper .content .content__page-counter .counter-total {
+.content-wrapper .content__page-counter .counter-total {
 	padding-bottom: 15px;
 }
 
-.content-wrapper .content .content__page-counter .counter-next {
+.content-wrapper .content__page-counter .counter-next {
 	font-size: 11px;
 	cursor: pointer;
 }

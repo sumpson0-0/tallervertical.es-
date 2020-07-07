@@ -1,5 +1,5 @@
 const isWorking = document.querySelector('.is-working');
-const currentValue = isWorking.lastElementChild.firstElementChild;
+const currentValue = document.querySelector('.counter-current');
 let nowScroll = window.scrollY;
 
 const scrollEvent = e => {
