@@ -9,9 +9,18 @@
 }
 
 body {
+	height: 2000px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
 	overflow: hidden;
 	background-color: #ededed;
-	font-family: 'IBM Plex Sans', sans-serif;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 .slogan-back {
