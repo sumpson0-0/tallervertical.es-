@@ -9,10 +9,16 @@
 }
 
 body {
-	height: 2000px;
+	height: 1945px;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* 스크롤 이벤트를 써야하는데 동시에 페이지는 고정되어야 해서
+container로 씌워서 fixed로 고정 후 배경넣고 z-index로 앞쪽으로 뺌 */
 .container {
 	overflow: hidden;
 	background-color: #ededed;
@@ -21,6 +27,7 @@ body {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
+	z-index: 50;
 }
 
 .slogan-back {
