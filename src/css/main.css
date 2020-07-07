@@ -2,22 +2,20 @@
 	font-weight: 500;
 }
 .main .content-wrapper {
+	width: 100vw;
+	height: 100vh;
 }
 
 /* content 공통 스타일 */
 
 .content-wrapper .content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100vw;
-	height: 100vh;
+	display: none;
 }
 
 .content-wrapper .content .content__title {
 	position: absolute;
-	left: 12rem;
-	top: 12rem;
+	left: 15rem;
+	top: 2rem;
 	width: 55rem;
 	font-size: 6rem;
 	font-weight: bold;
@@ -40,8 +38,8 @@
 
 .content-wrapper .content .content__info-wrapper {
 	position: absolute;
-	bottom: 7rem;
-	right: 12.5rem;
+	bottom: -1rem;
+	right: 17.5rem;
 	background-color: rgba(252, 252, 252, 0.678);
 	font-size: 1.3rem;
 	transform: rotate(270deg);
@@ -68,6 +66,15 @@
 .content-wrapper .content .content__page-counter .counter-next {
 	font-size: 11px;
 	cursor: pointer;
+}
+
+/* is-working */
+.content-wrapper .is-working {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 17.5vh 0;
 }
 
 /* content-1 */

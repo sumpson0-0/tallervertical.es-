@@ -14,10 +14,6 @@ body {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body::-webkit-scrollbar {
-	display: none;
-}
-
 .slogan-back {
 	position: absolute;
 	left: 25rem;
