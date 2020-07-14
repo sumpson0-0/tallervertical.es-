@@ -6,21 +6,26 @@
 }
 
 /* content 공통 스타일 */
-
 .content-wrapper .content {
 	display: none;
 }
 
-.content-wrapper .content .content__title {
+.content-wrapper .content .content__title-wrapper {
+	overflow: hidden;
+	padding: 0.5rem 0;
 	position: absolute;
 	left: 15rem;
 	top: 2rem;
 	width: 55rem;
+}
+
+.content-wrapper .content .content__title {
 	font-size: 6rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.589);
 	transition: all 0.4s;
+	transform: translateY(60px);
 }
 
 .content-wrapper .content .content__title:hover {
@@ -78,7 +83,6 @@
 }
 
 /* content-1 */
-
 /* content-2 */
 /* content-3 */
 /* content-4 */
