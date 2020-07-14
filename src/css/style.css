@@ -26,10 +26,11 @@ body {
 	font-weight: 400;
 	text-transform: uppercase;
 	writing-mode: vertical-rl;
-	transform: rotate(180deg);
+	transition: all ease-in-out 1.5s 0.4s;
 	z-index: -2;
 }
 
 .slogan-back > * {
+	transform: rotate(180deg);
 	padding: 0 0.5rem;
 }
