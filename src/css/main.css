@@ -1,6 +1,7 @@
 .main {
 	font-weight: 500;
 }
+
 .main .content-wrapper {
 	position: relative;
 	height: 65vh;
@@ -9,12 +10,7 @@
 
 /* content 공통 스타일 */
 .content-wrapper .content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	width: 100%;
-	opacity: 0;
+	display: none;
 }
 
 .content-wrapper .content .content__title-overflow {
@@ -30,13 +26,14 @@
 	font-size: 6rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.589);
-	transition: all linear 0.7s 0.4s;
+	text-shadow: 1px 1px 7px rgba(245, 245, 245, 0.589);
+	transition: all ease-in-out 0.7s 0.4s;
 }
 
 .content-wrapper .content .content__title:hover {
 	transition: transform 0.4s ease-in-out;
 	transform: translateY(-1.3rem);
+	cursor: pointer;
 }
 
 .content-wrapper .content .content__img-wrapper {
@@ -92,7 +89,10 @@
 
 /* is-working */
 .content-wrapper .is-working {
-	opacity: 1;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
 }
 
 /* 배경 패턴 */
