@@ -15,22 +15,3 @@ body {
 	background-color: #ededed;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
-
-.slogan-back {
-	position: absolute;
-	left: 25rem;
-	bottom: 0rem;
-	width: auto;
-	height: 20rem;
-	font-size: 4.5rem;
-	font-weight: 400;
-	text-transform: uppercase;
-	writing-mode: vertical-rl;
-	transition: all ease-in-out 1.5s 0.4s;
-	z-index: -2;
-}
-
-.slogan-back > * {
-	transform: rotate(180deg);
-	padding: 0 0.5rem;
-}
